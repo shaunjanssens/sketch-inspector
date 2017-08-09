@@ -1,0 +1,13 @@
+.button {
+  display: inline-block;
+  height: $d_button_height;
+
+  border: 1px solid $c_button_color;
+  border-radius: $d_radius;
+
+  padding: 0 $d_button_padding;
+
+  line-height: $d_button_height;
+  color: $c_button_color;
+  text-decoration: none;
+}

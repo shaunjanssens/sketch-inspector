@@ -1,0 +1,28 @@
+.sidebar {
+  background: $c_sidebar_background;
+  color: $c_sidebar_color;
+
+  &.sidebar__left {
+    border-right: 1px solid $c_sidebar_border;
+  }
+
+  &.sidebar__right {
+    border-left: 1px solid $c_sidebar_border;
+  }
+
+  .sidebar__box.properties {
+    margin-bottom: 20px;
+  }
+
+  .sidebar__title {
+    height: $d_title_height;
+    background: $c_sidebar_title_background;
+    padding: 0 $d_interface_padding;
+    line-height: $d_title_height;
+  }
+
+  .layercontrols {
+    position: absolute;
+    bottom: 0;
+  }
+}

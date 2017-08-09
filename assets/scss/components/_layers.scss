@@ -1,0 +1,73 @@
+.sidebar__box {
+  ul {
+    display: block;
+
+    li {
+      list-style: none;
+      position: relative;
+      line-height: $d_layer_height;
+
+      span {
+        display: block;
+        padding: 0 $d_interface_padding 0 36px;
+        height: $d_layer_height;
+        border-bottom: 1px solid $c_layer_border;
+
+        &:hover {
+          cursor: pointer;
+          background: $c_layer_selected;
+        }
+
+        &:before,
+        &:after {
+          position: absolute;
+          content: '';
+          top: 18px;
+          margin-left: -20px;
+          background-size: contain;
+          background-position: left center;
+          width: 10px;
+          height: 10px;
+        }
+
+        &:after {
+          width: 8px;
+          height: 8px;
+          right: $d_interface_padding;
+        }
+      }
+
+      &.selected {
+        > span {
+          background: $c_layer_selected;
+        }
+      }
+
+      &.open {
+        > app-tree-view > ul {
+          display: block;
+        }
+      }
+
+      // Nested lists
+      ul {
+        display: none;
+
+        // Second niveau
+        li span {
+          padding-left: $d_interface_padding * 2 + 21px;
+        }
+
+        // Third niveau
+        ul li span {
+          padding-left: $d_interface_padding * 3 + 21px;
+        }
+
+        // Fourth niveau
+        ul ul li span {
+          padding-left: $d_interface_padding * 4 + 21px;
+        }
+      }
+    }
+  }
+}

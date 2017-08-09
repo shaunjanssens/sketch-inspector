@@ -1,0 +1,41 @@
+body {
+  overflow: hidden;
+}
+
+.interface__header {
+  position: fixed;
+  width: 100vw;
+  height: $d_header_height;
+}
+
+.interface__container {
+  position: relative;
+  top: $d_header_height;
+  height: calc(100vh - #{$d_header_height});
+}
+
+.interface__sidebar {
+  position: absolute;
+  height: 100%;
+
+  &.sidebar__left {
+    width: $d_sidebar_left_width;
+    left: 0;
+  }
+
+  &.sidebar__right {
+    width: $d_sidebar_right_width;
+    right: 0;
+  }
+}
+
+.interface__main {
+  position: absolute;
+  height: 100%;
+  width: calc(100vw - #{$d_sidebar_left_width} - #{$d_sidebar_right_width});
+  left: $d_sidebar_left_width;
+}
+
+.interface_content {
+
+}

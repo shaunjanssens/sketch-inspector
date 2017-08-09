@@ -1,0 +1,86 @@
+/**
+ * Colors
+ */
+$c_black: #000000;
+$c_white: #FFFFFF;
+$c_accent: #2468EB;
+
+$c_background: #2C2C2C;
+
+$c_button_color: $c_white;
+
+$c_header_background: #323232;
+$c_header_gradient1: #3F3F3F;
+$c_header_gradient2: #323232;
+
+$c_sidebar_background: #323232;
+$c_sidebar_border: #494949;
+$c_sidebar_color: $c_white;
+
+$c_sidebar_title_background: #4C4C4C;
+
+$c_layer_selected: $c_accent;
+$c_layer_border: #494949;
+
+/**
+ * Dimensions
+ */
+$d_header_height: 70px;
+$d_sidebar_left_width: 300px;
+$d_sidebar_right_width: 300px;
+$d_title_height: 40px;
+$d_input_height: 35px;
+
+$d_layer_height: 45px;
+
+$d_interface_padding: 15px;
+$d_element_padding: 7px;
+
+$d_radius: 3px;
+
+$d_button_height: 30px;
+$d_button_padding: 15px;
+
+/**
+ * Typography
+ */
+$t_family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Desktop use
+$t_size_paragraph_desktop: 14px;
+$t_size_small_desktop: 12px;
+$t_size_large_desktop: 18px;
+$t_size_heading1_desktop: 34px;
+$t_size_heading2_desktop: 28px;
+$t_size_heading3_desktop: 22px;
+$t_size_heading4_desktop: 16px;
+$t_line-height_paragraph_desktop: 1.4;
+$t_line-height_heading_desktop: 1.1;
+$t_weight_paragraph_desktop: 400;
+$t_weight_heading_desktop: 400;
+
+// Tablet use
+$t_size_paragraph_tablet: 14px;
+$t_size_small_tablet: 12px;
+$t_size_large_tablet: 18px;
+$t_size_heading1_tablet: 28px;
+$t_size_heading2_tablet: 24px;
+$t_size_heading3_tablet: 20px;
+$t_size_heading4_tablet: 16px;
+$t_line-height_paragraph_tablet: 1.4;
+$t_line-height_heading_tablet: 1.1;
+$t_weight_paragraph_tablet: 400;
+$t_weight_heading_tablet: 400;
+
+// Mobile
+$t_size_paragraph_mobile: 14px;
+$t_size_small_mobile: 12px;
+$t_size_large_mobile: 18px;
+$t_size_heading1_mobile: 26px;
+$t_size_heading2_mobile: 22px;
+$t_size_heading3_mobile: 18px;
+$t_size_heading4_mobile: 16px;
+$t_line-height_paragraph_mobile: 1.4;
+$t_line-height_heading_mobile: 1.1;
+$t_weight_paragraph_mobile: 400;
+$t_weight_heading_mobile: 400;
