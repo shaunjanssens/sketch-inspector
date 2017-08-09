@@ -1,0 +1,746 @@
+{
+  "scale": "1",
+  "unit": "px",
+  "colorFormat": "color-hex",
+  "artboards": [{
+    "layers": [{
+      "objectID": "7BB20EE6-364B-4C8C-B09D-A975C964629F",
+      "type": "shape",
+      "name": "mask",
+      "rect": {
+        "x": 0,
+        "y": 607,
+        "width": 375,
+        "height": 60,
+        "maxX": 375,
+        "maxY": 667
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": ""
+    }, {
+      "objectID": "4F1EDC8D-B8ED-434D-A387-5455CC06D9AC",
+      "type": "shape",
+      "name": "line",
+      "rect": {
+        "x": 0,
+        "y": 607,
+        "width": 375,
+        "height": 1
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [{
+        "fillType": "color",
+        "color": {
+          "r": 243,
+          "g": 245,
+          "b": 248,
+          "a": 1,
+          "color-hex": "#F3F5F8 100%",
+          "argb-hex": "#FFF3F5F8",
+          "css-rgba": "rgba(243,245,248,1)",
+          "ui-color": "(r:0.95 g:0.96 b:0.97 a:1.00)"
+        }
+      }],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": "",
+      "css": ["background: #F3F5F8;"]
+    }, {
+      "objectID": "EA36D175-F34F-4825-BAD4-8D6F3AD88E7C",
+      "type": "text",
+      "name": "label",
+      "rect": {
+        "x": 67,
+        "y": 645,
+        "width": 52,
+        "height": 12
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": "",
+      "content": "my history",
+      "color": {
+        "r": 77,
+        "g": 83,
+        "b": 90,
+        "a": 1,
+        "color-hex": "#4D535A 100%",
+        "argb-hex": "#FF4D535A",
+        "css-rgba": "rgba(77,83,90,1)",
+        "ui-color": "(r:0.30 g:0.33 b:0.35 a:1.00)"
+      },
+      "fontSize": 9,
+      "fontFace": "Avenir-Medium",
+      "textAlign": "center",
+      "letterSpacing": 1,
+      "lineHeight": 12,
+      "css": ["font-family: Avenir-Medium;", "font-size: 9px;", "color: #4D535A;", "letter-spacing: 1px;"]
+    }, {
+      "objectID": "363F83C2-6074-4BCC-8773-C2F647362AAD",
+      "type": "shape",
+      "name": "icon",
+      "rect": {
+        "x": 86,
+        "y": 622,
+        "width": 13.5,
+        "height": 16
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [{
+        "fillType": "color",
+        "color": {
+          "r": 176,
+          "g": 178,
+          "b": 182,
+          "a": 1,
+          "color-hex": "#B0B2B6 100%",
+          "argb-hex": "#FFB0B2B6",
+          "css-rgba": "rgba(176,178,182,1)",
+          "ui-color": "(r:0.69 g:0.70 b:0.71 a:1.00)"
+        }
+      }],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": "",
+      "css": ["background: #B0B2B6;"]
+    }, {
+      "objectID": "826128B8-BCB7-479D-AA73-F44CF6F0DDBA",
+      "type": "text",
+      "name": "label",
+      "rect": {
+        "x": 169,
+        "y": 645,
+        "width": 38,
+        "height": 12
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": "",
+      "content": "explore",
+      "color": {
+        "r": 77,
+        "g": 83,
+        "b": 90,
+        "a": 1,
+        "color-hex": "#4D535A 100%",
+        "argb-hex": "#FF4D535A",
+        "css-rgba": "rgba(77,83,90,1)",
+        "ui-color": "(r:0.30 g:0.33 b:0.35 a:1.00)"
+      },
+      "fontSize": 9,
+      "fontFace": "Avenir-Medium",
+      "textAlign": "center",
+      "letterSpacing": 1,
+      "lineHeight": 12,
+      "css": ["font-family: Avenir-Medium;", "font-size: 9px;", "color: #4D535A;", "letter-spacing: 1px;"]
+    }, {
+      "objectID": "370D8A30-F764-42CB-A2A0-D99B8F58B86A",
+      "type": "shape",
+      "name": "icon",
+      "rect": {
+        "x": 180,
+        "y": 622,
+        "width": 16,
+        "height": 16
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [{
+        "fillType": "gradient",
+        "gradient": {
+          "type": "linear",
+          "from": {
+            "x": 0,
+            "y": 0
+          },
+          "to": {
+            "x": 1,
+            "y": 1
+          },
+          "colorStops": [{
+            "color": {
+              "r": 121,
+              "g": 167,
+              "b": 252,
+              "a": 1,
+              "color-hex": "#79A7FC 100%",
+              "argb-hex": "#FF79A7FC",
+              "css-rgba": "rgba(121,167,252,1)",
+              "ui-color": "(r:0.47 g:0.65 b:0.99 a:1.00)"
+            },
+            "position": 0
+          }, {
+            "color": {
+              "r": 192,
+              "g": 124,
+              "b": 252,
+              "a": 1,
+              "color-hex": "#C07CFC 100%",
+              "argb-hex": "#FFC07CFC",
+              "css-rgba": "rgba(192,124,252,1)",
+              "ui-color": "(r:0.75 g:0.49 b:0.99 a:1.00)"
+            },
+            "position": 1
+          }]
+        }
+      }],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": "",
+      "css": ["background-image: linear-gradient(-135deg, #79A7FC 0%, #C07CFC 100%);"]
+    }, {
+      "objectID": "24437661-C353-45C7-BEFE-7DAD05007D8D",
+      "type": "text",
+      "name": "label",
+      "rect": {
+        "x": 257,
+        "y": 645,
+        "width": 52,
+        "height": 12
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": "",
+      "content": "my history",
+      "color": {
+        "r": 77,
+        "g": 83,
+        "b": 90,
+        "a": 1,
+        "color-hex": "#4D535A 100%",
+        "argb-hex": "#FF4D535A",
+        "css-rgba": "rgba(77,83,90,1)",
+        "ui-color": "(r:0.30 g:0.33 b:0.35 a:1.00)"
+      },
+      "fontSize": 9,
+      "fontFace": "Avenir-Medium",
+      "textAlign": "center",
+      "letterSpacing": 1,
+      "lineHeight": 12,
+      "css": ["font-family: Avenir-Medium;", "font-size: 9px;", "color: #4D535A;", "letter-spacing: 1px;"]
+    }, {
+      "objectID": "59223AB0-1668-41A6-8D5E-06CAD1753157",
+      "type": "shape",
+      "name": "icon",
+      "rect": {
+        "x": 275,
+        "y": 622,
+        "width": 16,
+        "height": 16
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [{
+        "fillType": "color",
+        "color": {
+          "r": 176,
+          "g": 178,
+          "b": 182,
+          "a": 1,
+          "color-hex": "#B0B2B6 100%",
+          "argb-hex": "#FFB0B2B6",
+          "css-rgba": "rgba(176,178,182,1)",
+          "ui-color": "(r:0.69 g:0.70 b:0.71 a:1.00)"
+        }
+      }],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": "",
+      "css": ["background: #B0B2B6;"]
+    }, {
+      "objectID": "A15DED01-D22C-460D-BBEB-950D7278AA94",
+      "type": "shape",
+      "name": "mask",
+      "rect": {
+        "x": 284,
+        "y": 391,
+        "width": 160,
+        "height": 210,
+        "maxX": 444,
+        "maxY": 601
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [{
+        "fillType": "color",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1,
+          "color-hex": "#FFFFFF 100%",
+          "argb-hex": "#FFFFFFFF",
+          "css-rgba": "rgba(255,255,255,1)",
+          "ui-color": "(r:1.00 g:1.00 b:1.00 a:1.00)"
+        }
+      }],
+      "shadows": [{
+        "type": "outer",
+        "offsetX": -6,
+        "offsetY": 6,
+        "blurRadius": 20,
+        "spread": 0,
+        "color": {
+          "r": 77,
+          "g": 83,
+          "b": 90,
+          "a": 0.25,
+          "color-hex": "#4D535A 25%",
+          "argb-hex": "#404D535A",
+          "css-rgba": "rgba(77,83,90,0.25)",
+          "ui-color": "(r:0.30 g:0.33 b:0.35 a:0.25)"
+        }
+      }],
+      "opacity": 1,
+      "styleName": "",
+      "css": ["background: #FFFFFF;", "box-shadow: -6px 6px 20px 0 rgba(77,83,90,0.25);"]
+    }, {
+      "objectID": "BC8E5AAE-A0AF-4130-B607-691ADFE809EF",
+      "type": "shape",
+      "name": "bookcover",
+      "rect": {
+        "x": 310,
+        "y": 405,
+        "width": 120,
+        "height": 171.8
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": ""
+    }, {
+      "objectID": "6A4A48A9-F021-4BE6-B233-E962011ECC74",
+      "type": "shape",
+      "name": "mask",
+      "rect": {
+        "x": 144,
+        "y": 391,
+        "width": 160,
+        "height": 210,
+        "maxX": 304,
+        "maxY": 601
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [{
+        "fillType": "color",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1,
+          "color-hex": "#FFFFFF 100%",
+          "argb-hex": "#FFFFFFFF",
+          "css-rgba": "rgba(255,255,255,1)",
+          "ui-color": "(r:1.00 g:1.00 b:1.00 a:1.00)"
+        }
+      }],
+      "shadows": [{
+        "type": "outer",
+        "offsetX": -6,
+        "offsetY": 6,
+        "blurRadius": 20,
+        "spread": 0,
+        "color": {
+          "r": 77,
+          "g": 83,
+          "b": 90,
+          "a": 0.25,
+          "color-hex": "#4D535A 25%",
+          "argb-hex": "#404D535A",
+          "css-rgba": "rgba(77,83,90,0.25)",
+          "ui-color": "(r:0.30 g:0.33 b:0.35 a:0.25)"
+        }
+      }],
+      "opacity": 1,
+      "styleName": "",
+      "css": ["background: #FFFFFF;", "box-shadow: -6px 6px 20px 0 rgba(77,83,90,0.25);"]
+    }, {
+      "objectID": "05489A8D-C786-411D-9BB7-E0B1833C2EFD",
+      "type": "shape",
+      "name": "bookcover",
+      "rect": {
+        "x": 170,
+        "y": 405,
+        "width": 120,
+        "height": 171.8
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": ""
+    }, {
+      "objectID": "EE0D4E8D-BE11-476C-8366-282CBC69DF37",
+      "type": "shape",
+      "name": "mask",
+      "rect": {
+        "x": 4,
+        "y": 391,
+        "width": 160,
+        "height": 210,
+        "maxX": 164,
+        "maxY": 601
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [{
+        "fillType": "color",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1,
+          "color-hex": "#FFFFFF 100%",
+          "argb-hex": "#FFFFFFFF",
+          "css-rgba": "rgba(255,255,255,1)",
+          "ui-color": "(r:1.00 g:1.00 b:1.00 a:1.00)"
+        }
+      }],
+      "shadows": [{
+        "type": "outer",
+        "offsetX": -6,
+        "offsetY": 6,
+        "blurRadius": 20,
+        "spread": 0,
+        "color": {
+          "r": 77,
+          "g": 83,
+          "b": 90,
+          "a": 0.25,
+          "color-hex": "#4D535A 25%",
+          "argb-hex": "#404D535A",
+          "css-rgba": "rgba(77,83,90,0.25)",
+          "ui-color": "(r:0.30 g:0.33 b:0.35 a:0.25)"
+        }
+      }],
+      "opacity": 1,
+      "styleName": "",
+      "css": ["background: #FFFFFF;", "box-shadow: -6px 6px 20px 0 rgba(77,83,90,0.25);"]
+    }, {
+      "objectID": "3AA2FCC6-34F4-407A-B0DD-A355DAA6BEC3",
+      "type": "shape",
+      "name": "bookcover",
+      "rect": {
+        "x": 30,
+        "y": 405,
+        "width": 120,
+        "height": 171.8
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": ""
+    }, {
+      "objectID": "E5ADD5F4-8753-4DE6-99FD-C1010266966A",
+      "type": "text",
+      "name": "title",
+      "rect": {
+        "x": 30,
+        "y": 379,
+        "width": 163,
+        "height": 16
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": "",
+      "content": "Recommended boobs",
+      "color": {
+        "r": 77,
+        "g": 83,
+        "b": 90,
+        "a": 1,
+        "color-hex": "#4D535A 100%",
+        "argb-hex": "#FF4D535A",
+        "css-rgba": "rgba(77,83,90,1)",
+        "ui-color": "(r:0.30 g:0.33 b:0.35 a:1.00)"
+      },
+      "fontSize": 12,
+      "fontFace": "Avenir-Black",
+      "textAlign": "left",
+      "letterSpacing": 1,
+      "lineHeight": 16,
+      "css": ["font-family: Avenir-Black;", "font-size: 12px;", "color: #4D535A;", "letter-spacing: 1px;"]
+    }, {
+      "objectID": "0595D972-7E60-434B-A2A7-43F38D9B4E0D",
+      "type": "shape",
+      "name": "background",
+      "rect": {
+        "x": -3,
+        "y": 212,
+        "width": 365,
+        "height": 100
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [{
+        "fillType": "color",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1,
+          "color-hex": "#FFFFFF 100%",
+          "argb-hex": "#FFFFFFFF",
+          "css-rgba": "rgba(255,255,255,1)",
+          "ui-color": "(r:1.00 g:1.00 b:1.00 a:1.00)"
+        }
+      }],
+      "shadows": [{
+        "type": "outer",
+        "offsetX": -8,
+        "offsetY": 8,
+        "blurRadius": 25,
+        "spread": 0,
+        "color": {
+          "r": 77,
+          "g": 83,
+          "b": 90,
+          "a": 0.3,
+          "color-hex": "#4D535A 30%",
+          "argb-hex": "#4D4D535A",
+          "css-rgba": "rgba(77,83,90,0.3)",
+          "ui-color": "(r:0.30 g:0.33 b:0.35 a:0.30)"
+        }
+      }],
+      "opacity": 1,
+      "styleName": "",
+      "css": ["background: #FFFFFF;", "box-shadow: -8px 8px 25px 0 rgba(77,83,90,0.30);"]
+    }, {
+      "objectID": "5FB8EBBA-F839-41B7-908C-3639FA41818E",
+      "type": "text",
+      "name": "placeholder",
+      "rect": {
+        "x": 45,
+        "y": 245,
+        "width": 243,
+        "height": 19
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": "",
+      "content": "Enter the name of a book or author …",
+      "color": {
+        "r": 204,
+        "g": 206,
+        "b": 207,
+        "a": 1,
+        "color-hex": "#CCCECF 100%",
+        "argb-hex": "#FFCCCECF",
+        "css-rgba": "rgba(204,206,207,1)",
+        "ui-color": "(r:0.80 g:0.81 b:0.81 a:1.00)"
+      },
+      "fontSize": 14,
+      "fontFace": "Avenir-Medium",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": 19,
+      "css": ["font-family: Avenir-Medium;", "font-size: 14px;", "color: #CCCECF;"]
+    }, {
+      "objectID": "82314E41-16E5-4EC3-B9F5-BC59AB094F4F",
+      "type": "shape",
+      "name": "icon",
+      "rect": {
+        "x": 314,
+        "y": 246,
+        "width": 16,
+        "height": 16
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": ""
+    }, {
+      "objectID": "781E481A-3C44-48D4-BD82-F188DDAE6664",
+      "type": "text",
+      "name": "subtitle",
+      "rect": {
+        "x": 30,
+        "y": 141,
+        "width": 288,
+        "height": 48
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": "",
+      "content": "It’s a nice day to read books.\nWhat kind of books do you read today?",
+      "color": {
+        "r": 176,
+        "g": 178,
+        "b": 182,
+        "a": 1,
+        "color-hex": "#B0B2B6 100%",
+        "argb-hex": "#FFB0B2B6",
+        "css-rgba": "rgba(176,178,182,1)",
+        "ui-color": "(r:0.69 g:0.70 b:0.71 a:1.00)"
+      },
+      "fontSize": 16,
+      "fontFace": "Avenir-Medium",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": 24,
+      "css": ["font-family: Avenir-Medium;", "font-size: 16px;", "color: #B0B2B6;", "line-height: 24px;"]
+    }, {
+      "objectID": "82F51796-BD4C-4720-A6B2-DD1905F44A5F",
+      "type": "text",
+      "name": "title",
+      "rect": {
+        "x": 30,
+        "y": 101,
+        "width": 130,
+        "height": 30
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": "",
+      "content": "Hello, Shaun",
+      "color": {
+        "r": 77,
+        "g": 83,
+        "b": 90,
+        "a": 1,
+        "color-hex": "#4D535A 100%",
+        "argb-hex": "#FF4D535A",
+        "css-rgba": "rgba(77,83,90,1)",
+        "ui-color": "(r:0.30 g:0.33 b:0.35 a:1.00)"
+      },
+      "fontSize": 22,
+      "fontFace": "Avenir-Heavy",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": 30,
+      "css": ["font-family: Avenir-Heavy;", "font-size: 22px;", "color: #4D535A;"]
+    }, {
+      "objectID": "8AFEC3A2-E13C-49F1-9D0D-D49CAE3BDDC6",
+      "type": "shape",
+      "name": "mask",
+      "rect": {
+        "x": 315,
+        "y": 30,
+        "width": 30,
+        "height": 30,
+        "maxX": 345,
+        "maxY": 60
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [{
+        "fillType": "color",
+        "color": {
+          "r": 216,
+          "g": 216,
+          "b": 216,
+          "a": 1,
+          "color-hex": "#D8D8D8 100%",
+          "argb-hex": "#FFD8D8D8",
+          "css-rgba": "rgba(216,216,216,1)",
+          "ui-color": "(r:0.85 g:0.85 b:0.85 a:1.00)"
+        }
+      }],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": "",
+      "css": ["background: #D8D8D8;"]
+    }, {
+      "objectID": "ACCCE300-3BBB-46D4-9698-7A98BB8B6864",
+      "type": "shape",
+      "name": "avatar",
+      "rect": {
+        "x": 315,
+        "y": 30,
+        "width": 30,
+        "height": 30
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": ""
+    }, {
+      "objectID": "443FC1A9-41FE-40BF-BCAF-5F3D4EAEA075",
+      "type": "shape",
+      "name": "icon",
+      "rect": {
+        "x": 30,
+        "y": 30,
+        "width": 20,
+        "height": 17
+      },
+      "rotation": 0,
+      "radius": 0,
+      "borders": [],
+      "fills": [],
+      "shadows": [],
+      "opacity": 1,
+      "styleName": ""
+    }],
+    "notes": [],
+    "pageName": "Page 1",
+    "pageObjectID": "C1FC669B-B9BB-4566-9D74-93D3915E033F",
+    "name": "books app",
+    "slug": "page-1-books-app",
+    "objectID": "DC93D33E-6B66-413B-8698-088926170AED",
+    "width": 375,
+    "height": 667,
+    "imagePath": "preview/page-1-books-app.png"
+  }],
+  "slices": [],
+  "colors": []
+}

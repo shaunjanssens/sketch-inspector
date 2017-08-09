@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="design-v2" transform="translate(-116.000000, -747.000000)" fill-rule="nonzero" fill="#7A7A7A">
+            <g id="sidebar---layers" transform="translate(0.000000, 70.000000)">
+                <g id="layers" transform="translate(0.000000, 40.000000)">
+                    <path d="M121,646 C123.209139,646 125,644.209139 125,642 C125,639.790861 123.209139,638 121,638 C118.790861,638 117,639.790861 117,642 C117,644.209139 118.790861,646 121,646 Z M121,647 C118.238576,647 116,644.761424 116,642 C116,639.238576 118.238576,637 121,637 C123.761424,637 126,639.238576 126,642 C126,644.761424 123.761424,647 121,647 Z" id="icon-oval"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

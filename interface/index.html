@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sketch inspector</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="header">
+    <div class="container-fluid">
+      <div class="row middle-md">
+        <div class="header__logo col-md-4">
+          <div class="box">
+            <h1><strong>Sketch</strong> inspector</h1>
+          </div>
+        </div>
+        <div class="header__filename col-md-4">
+          <div class="box">
+            <span data="filename">Testdesign</span>
+          </div>
+        </div>
+        <div class="header__actions col-md-4">
+          <div class="box">
+            <a class="button">My designs</a>
+            <a class="button">Open new design</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row between">
+      <div class="sidebar sidebar-left col-md">
+        <div class="box">
+          <div class="sidebar__scroll">
+            <div class="sidebar__title">Layers</div>
+
+            <ul class="layers">
+              <li class="group">
+                <span>menu</span>
+                <ul>
+                  <li class="layer image"><span>icon</span></li>
+                </ul>
+              </li>
+              <li class="group">
+                <span>avatar</span>
+                <ul>
+                  <li class="layer image mask">
+                    <span>avatar</span>
+                  </li>
+                  <li class="layer oval">
+                    <span>mask</span>
+                  </li>
+                </ul>
+              </li>
+              <li class="group">
+                <span>intro</span>
+                <ul>
+                  <li class="layer text">
+                    <span>title</span>
+                  </li>
+                  <li class="layer text">
+                    <span>subtitle</span>
+                  </li>
+                </ul>
+              </li>
+              <li class="group">
+                <span>search</span>
+                <ul>
+                  <li class="layer image">
+                    <span>icon</span>
+                  </li>
+                  <li class="layer text">
+                    <span>placeholder</span>
+                  </li>
+                  <li class="layer rectangle">
+                    <span>background</span>
+                  </li>
+                </ul>
+              </li>
+              <li class="group">
+                <span>books</span>
+                <ul>
+                  <li class="layer text">
+                    <span>title</span>
+                  </li>
+                  <li class="group">
+                    <span>book</span>
+                    <ul>
+                      <li class="layer image mask">
+                        <span>bookcover</span>
+                      </li>
+                      <li class="layer rectangle">
+                        <span>mask</span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group">
+                    <span>book</span>
+                    <ul>
+                      <li class="layer image mask">
+                        <span>bookcover</span>
+                      </li>
+                      <li class="layer rectangle">
+                        <span>mask</span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group">
+                    <span>book</span>
+                    <ul>
+                      <li class="layer image mask">
+                        <span>bookcover</span>
+                      </li>
+                      <li class="layer rectangle">
+                        <span>mask</span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="group">
+                <span>footer</span>
+                <ul>
+                  <li class="group">
+                    <span>button</span>
+                    <ul>
+                      <li class="layer image">
+                        <span>icon</span>
+                      </li>
+                      <li class="layer text">
+                        <span>label</span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group">
+                    <span>button</span>
+                    <ul>
+                      <li class="layer image">
+                        <span>icon</span>
+                      </li>
+                      <li class="layer text">
+                        <span>label</span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group">
+                    <span>button</span>
+                    <ul>
+                      <li class="layer image">
+                        <span>icon</span>
+                      </li>
+                      <li class="layer text">
+                        <span>label</span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group">
+                    <span>background</span>
+                    <ul>
+                      <li class="layer rectangle mask">
+                        <span>line</span>
+                      </li>
+                      <li class="layer rectangle">
+                        <span>mask</span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="layerscontrol">
+            <div class="layerscontrol__label">Layers</div>
+            <a class="layerscontrol__button" data-action="layerscontrolopenall">open all</a>
+            <a class="layerscontrol__button" data-action="layerscontrolcloseall">close all</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="design col-md">
+        <div class="box">
+          <div class="image">
+            <div class="hotspots">
+
+            </div>
+            <img src="assets/img/app.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar sidebar-right col-md">
+        <div class="box">
+          <div class="sidebar__scroll properties">
+
+          </div>
+
+          <div class="sidebar__group sidebar__group--code">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="template" id="modal-code">
+    <div class="sidebar__title">Code</div>
+
+    <div class="sidebar__code">
+      <code>
+
+      </code>
+    </div>
+  </div>
+
+  <div class="template" id="modal-properties">
+    <div class="sidebar__group">
+      <div class="sidebar__title">Properties</div>
+
+      <div class="stylegroup">
+        <div class="stylegroup__label">Position</div>
+        <div class="style">
+          <span class="style__value" data-value="x"></span>
+          <span class="style__extra">X</span>
+        </div><div class="style">
+        <span class="style__value" data-value="y"></span>
+        <span class="style__extra">Y</span>
+      </div>
+      </div>
+
+      <div class="stylegroup">
+        <div class="stylegroup__label">Size</div>
+        <div class="style">
+          <span class="style__value" data-value="width"></span>
+          <span class="style__extra">Width</span>
+        </div><div class="style">
+        <span class="style__value" data-value="height"></span>
+        <span class="style__extra">Height</span>
+      </div>
+      </div>
+
+      <div class="stylegroup">
+        <div class="stylegroup__label">Opacity</div>
+        <div class="style">
+          <span class="style__value" data-value="opacity"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="template" id="modal-typeface">
+    <div class="sidebar__group">
+      <div class="sidebar__title">Typeface</div>
+
+      <div class="stylegroup">
+        <div class="stylegroup__label">Family</div>
+        <div class="style style--full">
+          <span class="style__value" data-value="typefamily"></span>
+        </div>
+      </div>
+
+      <div class="stylegroup">
+        <div class="stylegroup__label">Color</div>
+        <div class="style style--color style--full">
+          <span class="style__color"></span>
+          <span class="style__value" data-value="typecolor"></span>
+        </div>
+      </div>
+
+      <div class="stylegroup">
+        <div class="stylegroup__label">Size</div>
+        <div class="style">
+          <span class="style__value" data-value="typesize"></span>
+        </div>
+      </div>
+
+      <div class="stylegroup">
+        <div class="stylegroup__label">Spacing</div>
+        <div class="style">
+          <span class="style__value" data-value="typecharspace"></span>
+          <span class="style__extra">Character</span>
+        </div><div class="style">
+        <span class="style__value" data-value="typelineheight"></span>
+        <span class="style__extra">Line</span>
+        </div>
+      </div>
+
+      <div class="stylegroup">
+        <div class="style style--content">
+          <span class="style__value" data-value="typecontent"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="template" id="modal-fill">
+    <div class="sidebar__group">
+      <div class="sidebar__title">Fill</div>
+
+      <div class="stylegroup">
+        <div class="stylegroup__label">Color</div>
+        <div class="style style--color style--full">
+          <span class="style__color"></span>
+          <span class="style__value" data-value="fillcolor"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="template" id="modal-shadow">
+    <div class="sidebar__group">
+      <div class="sidebar__title"></div>
+
+      <div class="stylegroup">
+        <div class="stylegroup__label">Offset</div>
+        <div class="style">
+          <span class="style__value" data-value="bluroffsetX"></span>
+          <span class="style__extra">X</span>
+        </div><div class="style">
+        <span class="style__value" data-value="bluroffsetY"></span>
+        <span class="style__extra">Y</span>
+      </div>
+      </div>
+
+      <div class="stylegroup">
+        <div class="stylegroup__label">Effect</div>
+        <div class="style">
+          <span class="style__value" data-value="blurradius"></span>
+          <span class="style__extra">Radius</span>
+        </div><div class="style">
+        <span class="style__value" data-value="blurspread"></span>
+        <span class="style__extra">Spread</span>
+      </div>
+      </div>
+
+      <div class="stylegroup">
+        <div class="stylegroup__label">Color</div>
+        <div class="style style--color style--full">
+          <span class="style__color"></span>
+          <span class="style__value" data-value="blurcolor"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+  font-family: $t_family;
+  -webkit-font-smoothing: antialiased;
+  @include fontsize(p);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+  font-family: $t_family;
+  @include fontweight(h);
+}
+
+h1, .h1 {
+  @include fontsize(h1);
+}
+
+h2, .h2 {
+  @include fontsize(h2);
+}
+
+h3, .h3 {
+  @include fontsize(h3);
+}
+
+h4, .h4 {
+  @include fontsize(h4);
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.4;
+  padding-bottom: 16px;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+a {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

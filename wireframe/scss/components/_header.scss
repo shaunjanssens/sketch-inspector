@@ -1,0 +1,28 @@
+.header {
+  background: $c_black;
+  color: $c_white;
+
+  .row {
+    height: 70px;
+    padding: 0 20px;
+  }
+
+  .header__logo {
+    h1 {
+      @include fontsize(p);
+    }
+  }
+
+  .header__filename {
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .header__actions {
+    text-align: right;
+
+    .button:first-child {
+      margin-right: 10px;
+    }
+  }
+}

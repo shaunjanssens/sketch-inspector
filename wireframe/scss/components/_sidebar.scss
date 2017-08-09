@@ -1,0 +1,36 @@
+.sidebar  {
+  flex: 0 0 300px;
+  position: relative;
+  background: #F0F0F0;
+  height: calc(100vh - 70px);
+  overflow: hidden;
+
+  .sidebar__scroll {
+    overflow: hidden;
+    padding-bottom: 20px;
+  }
+
+  .sidebar__title {
+    background: #E0E0E0;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+
+  .sidebar__group {
+    margin-top: 20px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.sidebar-left {
+
+}
+
+.sidebar-right {
+
+}

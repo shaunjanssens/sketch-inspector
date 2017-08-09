@@ -1,0 +1,16 @@
+.hotspots {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  .hotspots__item {
+    position: absolute;
+    border-color: #B00A04;
+    //background: rgba(0, 255, 0, .2);
+
+    &:hover,
+    &.selected {
+      border: 1px solid #B00A04;
+    }
+  }
+}

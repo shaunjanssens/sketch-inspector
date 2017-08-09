@@ -1,0 +1,166 @@
+@mixin breakpoint($point) {
+  @if $point == desktop {
+    @media (min-width: 1260px) { @content ; }
+  }
+  @else if $point == highscreen {
+    @media (min-height: 1000px) and (min-width: 1400px) { @content ; }
+  }
+  @else if $point == superhighscreen {
+    @media (min-height: 1200px) and (min-width: 1400px) { @content ; }
+  }
+  @else if $point == laptop {
+    @media (min-width: 1024px) { @content ; }
+  }
+  @else if $point == tablet {
+    @media (min-width: 850px) { @content ; }
+  }
+  @else if $point == mobile {
+    @media (max-width: 500px)  { @content ; }
+  }
+}
+
+@mixin clearfix(){
+  &:before,
+  &:after{
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    display: block;
+    clear: both;
+    height: 1px;
+    margin-top: -1px;
+    visibility: hidden;
+  }
+
+  & {
+    *zoom: 1;
+  }
+}
+
+@mixin fontsize($size) {
+  @if $size == h1 {
+    font-size: $t_size_heading1_mobile;
+    line-height: $t_line-height_heading_mobile;
+
+    @include breakpoint(tablet) {
+      font-size: $t_size_heading1_tablet;
+      line-height: $t_line-height_heading_tablet;
+    }
+
+    @include breakpoint(desktop) {
+      font-size: $t_size_heading1_desktop;
+      line-height: $t_line-height_heading_desktop;
+    }
+  }
+  @else if $size == h2 {
+    font-size: $t_size_heading2_mobile;
+    line-height: $t_line-height_heading_mobile;
+
+    @include breakpoint(tablet) {
+      font-size: $t_size_heading2_tablet;
+      line-height: $t_line-height_heading_tablet;
+    }
+
+    @include breakpoint(desktop) {
+      font-size: $t_size_heading2_desktop;
+      line-height: $t_line-height_heading_desktop;
+    }
+  }
+  @else if $size == h3 {
+    font-size: $t_size_heading3_mobile;
+    line-height: $t_line-height_heading_mobile;
+
+    @include breakpoint(tablet) {
+      font-size: $t_size_heading3_tablet;
+      line-height: $t_line-height_heading_tablet;
+    }
+
+    @include breakpoint(desktop) {
+      font-size: $t_size_heading3_desktop;
+      line-height: $t_line-height_heading_desktop;
+    }
+  }
+  @else if $size == h4 {
+    font-size: $t_size_heading4_mobile;
+    line-height: $t_line-height_heading_mobile;
+
+    @include breakpoint(tablet) {
+      font-size: $t_size_heading4_tablet;
+      line-height: $t_line-height_heading_tablet;
+    }
+
+    @include breakpoint(desktop) {
+      font-size: $t_size_heading4_desktop;
+      line-height: $t_line-height_heading_desktop;
+    }
+  }
+  @else if $size == p {
+    font-size: $t_size_paragraph_mobile;
+    line-height: $t_line-height_paragraph_mobile;
+
+    @include breakpoint(tablet) {
+      font-size: $t_size_paragraph_tablet;
+      line-height: $t_line-height_paragraph_tablet;
+    }
+
+    @include breakpoint(desktop) {
+      font-size: $t_size_paragraph_desktop;
+      line-height: $t_line-height_paragraph_desktop;
+    }
+  }
+  @else if $size == big {
+    font-size: $t_size_large_mobile;
+    line-height: $t_line-height_paragraph_mobile;
+
+    @include breakpoint(tablet) {
+      font-size: $t_size_large_tablet;
+      line-height: $t_line-height_paragraph_tablet;
+    }
+
+    @include breakpoint(desktop) {
+      font-size: $t_size_large_desktop;
+      line-height: $t_line-height_paragraph_desktop;
+    }
+  }
+  @else if $size == small {
+    font-size: $t_size_small_mobile;
+    line-height: $t_line-height_paragraph_mobile;
+
+    @include breakpoint(tablet) {
+      font-size: $t_size_small_tablet;
+      line-height: $t_line-height_paragraph_tablet;
+    }
+
+    @include breakpoint(desktop) {
+      font-size: $t_size_small_desktop;
+      line-height: $t_line-height_paragraph_desktop;
+    }
+  }
+}
+
+@mixin fontweight($size) {
+  @if $size == h {
+    font-weight: $t_weight_heading_mobile;
+
+    @include breakpoint(tablet) {
+      font-weight: $t_weight_heading_tablet;
+    }
+
+    @include breakpoint(desktop) {
+      font-weight: $t_weight_heading_desktop;
+    }
+  }
+  @else if $size == p {
+    font-weight: $t_weight_paragraph_mobile;
+
+    @include breakpoint(tablet) {
+      font-weight: $t_weight_paragraph_tablet;
+    }
+
+    @include breakpoint(desktop) {
+      font-weight: $t_weight_paragraph_desktop;
+    }
+  }
+}

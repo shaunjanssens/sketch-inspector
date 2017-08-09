@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sketch inspector</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="header">
+    <div class="container-fluid">
+      <div class="row middle-md">
+        <div class="header__logo col-md-4">
+          <div class="box">
+            <h1><strong>Sketch</strong> inspector</h1>
+          </div>
+        </div>
+        <div class="header__filename col-md-4">
+          <div class="box">
+            <span data="filename">Testdesign</span>
+          </div>
+        </div>
+        <div class="header__actions col-md-4">
+          <div class="box">
+            <a class="button">My designs</a>
+            <a class="button">Open new design</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row between">
+      <div class="sidebar sidebar-left col-md">
+        <div class="box">
+          <div class="sidebar__scroll">
+            <div class="sidebar__title">Layers</div>
+
+            <ul class="layers">
+              <li class="group"><span><span>header</span></span>
+                <ul>
+                  <li class="group"><span>article</span>
+                    <ul>
+                      <li class="layer"><span>title</span></li>
+                      <li class="layer"><span>paragraph</span></li>
+                      <li class="layer"><span>author</span></li>
+                      <li class="layer"><span>date</span></li>
+                    </ul>
+                  </li>
+                  <li class="group"><span>recomended</span></li>
+                </ul>
+              </li>
+              <li class="group"><span>sidebar - left</span>
+                <ul>
+                  <li class="group"><span>article</span>
+                    <ul>
+                      <li class="layer"><span>title</span></li>
+                      <li class="layer"><span>paragraph</span></li>
+                      <li class="layer"><span>author</span></li>
+                      <li class="layer"><span>date</span></li>
+                    </ul>
+                  </li>
+                  <li class="group"><span>recomended</span></li>
+                </ul>
+              </li>
+              <li class="group"><span>maincontent</span>
+                <ul>
+                  <li class="group"><span>article</span>
+                    <ul>
+                      <li class="layer"><span>title</span></li>
+                      <li class="layer"><span>paragraph</span></li>
+                      <li class="layer"><span>author</span></li>
+                      <li class="layer"><span>date</span></li>
+                    </ul>
+                  </li>
+                  <li class="group"><span>recomended</span></li>
+                </ul>
+              </li>
+              <li class="group"><span>sidebar - right</span>
+                <ul>
+                  <li class="group"><span>article</span>
+                    <ul>
+                      <li class="layer"><span>title</span></li>
+                      <li class="layer"><span>paragraph</span></li>
+                      <li class="layer"><span>author</span></li>
+                      <li class="layer"><span>date</span></li>
+                    </ul>
+                  </li>
+                  <li class="group"><span>recomended</span></li>
+                </ul>
+              </li>
+              <li class="group"><span>footer</span>
+                <ul>
+                  <li class="group"><span>article</span>
+                    <ul>
+                      <li class="layer"><span>title</span></li>
+                      <li class="layer"><span>paragraph</span></li>
+                      <li class="layer"><span>author</span></li>
+                      <li class="layer"><span>date</span></li>
+                    </ul>
+                  </li>
+                  <li class="group"><span>recomended</span></li>
+                </ul>
+              </li>
+              <li class="group"><span>overlay - form</span>
+                <ul>
+                  <li class="group"><span>article</span>
+                    <ul>
+                      <li class="layer"><span>title</span></li>
+                      <li class="layer"><span>paragraph</span></li>
+                      <li class="layer"><span>author</span></li>
+                      <li class="layer"><span>date</span></li>
+                    </ul>
+                  </li>
+                  <li class="group"><span>recomended</span></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="layerscontrol">
+            <div class="layerscontrol__label">Layers</div>
+            <a class="layerscontrol__button" data-action="layerscontrolopenall">open all</a>
+            <a class="layerscontrol__button" data-action="layerscontrolcloseall">close all</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="design col-md">
+        <div class="box">
+          <div class="image">
+            <div class="imageOutlines">
+              <div class="imageOutlines__outline" style="width: 150px; height: 150px; top: "></div>
+            </div>
+            <img src="assets/img/testbestand.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar sidebar-right col-md">
+        <div class="box">
+          <div class="sidebar__scroll">
+            <div class="sidebar__group">
+              <div class="sidebar__title">Properties</div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Position</div>
+                <div class="style">
+                  <span class="style__value">304 px</span>
+                  <span class="style__extra">X</span>
+                </div><div class="style">
+                  <span class="style__value">145 px</span>
+                  <span class="style__extra">Y</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Size</div>
+                <div class="style">
+                  <span class="style__value">370 px</span>
+                  <span class="style__extra">Width</span>
+                </div><div class="style">
+                  <span class="style__value">700 px</span>
+                  <span class="style__extra">Height</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Opacity</div>
+                <div class="style">
+                  <span class="style__value">70 %</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="sidebar__group">
+              <div class="sidebar__title">Typeface</div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Family</div>
+                <div class="style style--full">
+                  <span class="style__value">Helvetica Neue</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Weight</div>
+                <div class="style style--full">
+                  <span class="style__value">Medium</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Color</div>
+                <div class="style style--color style--full">
+                  <span class="style__color" style="background-color: #000000"></span>
+                  <span class="style__value">#000000</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Size</div>
+                <div class="style">
+                  <span class="style__value">14 px</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Spacing</div>
+                <div class="style">
+                  <span class="style__value">0 px</span>
+                  <span class="style__extra">Character</span>
+                </div><div class="style">
+                  <span class="style__value">18 px</span>
+                  <span class="style__extra">Line</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="sidebar__group">
+              <div class="sidebar__title">Typeface</div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Family</div>
+                <div class="style style--full">
+                  <span class="style__value">Helvetica Neue</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Weight</div>
+                <div class="style style--full">
+                  <span class="style__value">Medium</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Color</div>
+                <div class="style style--color style--full">
+                  <span class="style__color" style="background-color: #000000"></span>
+                  <span class="style__value">#000000</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Size</div>
+                <div class="style">
+                  <span class="style__value">14 px</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Spacing</div>
+                <div class="style">
+                  <span class="style__value">0 px</span>
+                  <span class="style__extra">Character</span>
+                </div><div class="style">
+                  <span class="style__value">18 px</span>
+                  <span class="style__extra">Line</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="sidebar__group">
+              <div class="sidebar__title">Typeface</div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Family</div>
+                <div class="style style--full">
+                  <span class="style__value">Helvetica Neue</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Weight</div>
+                <div class="style style--full">
+                  <span class="style__value">Medium</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Color</div>
+                <div class="style style--color style--full">
+                  <span class="style__color" style="background-color: #000000"></span>
+                  <span class="style__value">#000000</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Size</div>
+                <div class="style">
+                  <span class="style__value">14 px</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Spacing</div>
+                <div class="style">
+                  <span class="style__value">0 px</span>
+                  <span class="style__extra">Character</span>
+                </div><div class="style">
+                  <span class="style__value">18 px</span>
+                  <span class="style__extra">Line</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="sidebar__group">
+              <div class="sidebar__title">Typeface</div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Family</div>
+                <div class="style style--full">
+                  <span class="style__value">Helvetica Neue</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Weight</div>
+                <div class="style style--full">
+                  <span class="style__value">Medium</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Color</div>
+                <div class="style style--color style--full">
+                  <span class="style__color" style="background-color: #000000"></span>
+                  <span class="style__value">#000000</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Size</div>
+                <div class="style">
+                  <span class="style__value">14 px</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Spacing</div>
+                <div class="style">
+                  <span class="style__value">0 px</span>
+                  <span class="style__extra">Character</span>
+                </div><div class="style">
+                  <span class="style__value">18 px</span>
+                  <span class="style__extra">Line</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="sidebar__group">
+              <div class="sidebar__title">Blur</div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Offset</div>
+                <div class="style">
+                  <span class="style__value">2 px</span>
+                  <span class="style__extra">X</span>
+                </div><div class="style">
+                  <span class="style__value">2 px</span>
+                  <span class="style__extra">Y</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Effect</div>
+                <div class="style">
+                  <span class="style__value">4 px</span>
+                  <span class="style__extra">Width</span>
+                </div><div class="style">
+                  <span class="style__value">0 px</span>
+                  <span class="style__extra">Height</span>
+                </div>
+              </div>
+
+              <div class="stylegroup">
+                <div class="stylegroup__label">Color</div>
+                <div class="style style--color style--full">
+                  <span class="style__color" style="background-color: rgba(0, 0, 0, .3)"></span>
+                  <span class="style__value">#000000 (30%)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar__group sidebar__group--code">
+            <div class="sidebar__title">Code</div>
+
+            <div class="sidebar__code">
+              <code>
+                font-family: "Helvetica Neue";<br />
+                font-weight: 500;<br />
+                font-size: 14px;<br />
+                line-height: 18px;<br />
+                color: #000000;<br />
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+              </code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

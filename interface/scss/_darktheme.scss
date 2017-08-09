@@ -1,0 +1,49 @@
+body.darktheme {
+  background: #191C20;
+  color: #FFFFFF;
+}
+
+.darktheme {
+  .header {
+    background: #25292E;
+  }
+
+  .sidebar {
+    background: #25292E;
+
+    .sidebar__title {
+      background: #2B3036;
+    }
+  }
+
+  .layers {
+    li {
+      &:hover {
+        background: #2B3036;
+      }
+    }
+  }
+
+  .layerscontrol {
+    background: #2B3036;
+  }
+
+  .style {
+    .style__value {
+      background: #2B3036;
+    }
+  }
+
+  .button {
+    background: none;
+    border: 1px solid #42E0AE;
+    border-radius: 4px;
+    color: #ffffff;
+
+    &:hover {
+      background: #42E0AE;
+      color: #191C20;
+    }
+  }
+
+}
